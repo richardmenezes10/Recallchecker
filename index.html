@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Recall</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Verificação de Recall</h2>
+    <p>Insira o intervalo de chassis afetados e o chassi do seu veículo:</p>
+    
+    <input type="text" id="chassiInicial" placeholder="Chassi Inicial">
+    <input type="text" id="chassiFinal" placeholder="Chassi Final">
+    <br>
+    <input type="text" id="chassiVeiculo" placeholder="Seu Chassi">
+    <br>
+    <button onclick="verificarRecall()">Verificar</button>
+    
+    <p id="resultado"></p>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
